@@ -9,7 +9,9 @@ h3 {
     font-family: 'Playfair Display', serif;
     color: #333;
 }
-
+html,body{
+    overflow-x: hidden;
+}
 h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -344,13 +346,21 @@ blockquote {
     footer .container .row {
         gap: 30px;
     }
-
-    .bar-categories {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    .bar-categories{
+        display: none;
+    }
+    .bar-categories2 {
+        display: grid !important;
+        grid-template-columns: 1fr  1fr;
         gap: 0;
         justify-content: start;
+        width: 1;
         align-items: start;
+        background-color: #002A78;
+    }
+    .bar-categories2 a{
+        color: white;
+        text-decoration: none;
     }
 
     aside {
@@ -403,7 +413,7 @@ blockquote {
         opacity: 0;
         position: absolute;
         width: 100%;
-        top: 10%;
+        top: 12%;
         padding: 10px 20px;
         left: 0;
         background-color: #ffffff;
