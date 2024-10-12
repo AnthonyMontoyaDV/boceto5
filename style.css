@@ -353,13 +353,14 @@ blockquote {
         display: grid !important;
         grid-template-columns: 1fr  1fr;
         gap: 0;
+        padding: 0 5px;
         justify-content: start;
-        width: 1;
         align-items: start;
         background-color: #002A78;
     }
     .bar-categories2 a{
         color: white;
+        font-size: 14px;
         text-decoration: none;
     }
 
